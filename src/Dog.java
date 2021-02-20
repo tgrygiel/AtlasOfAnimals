@@ -36,4 +36,8 @@ public class Dog {
 		this.age = age;
 		this.type = type;
 	}
+
+	public void eat(String typeOfFood) {
+		System.out.println("Time to eat: " + typeOfFood);
+	}
 }
