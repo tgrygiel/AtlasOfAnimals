@@ -34,7 +34,7 @@ public class Dog {
 		return this;
 	}
 
-	public Dog(String name, int age, String type ) {
+	public Dog(String name, int age, String type) {
 		this.name = name;
 		this.age = age;
 		this.type = type;
@@ -45,5 +45,15 @@ public class Dog {
 		System.out.println("przynesc pilke " + name);
 		System.out.println("mam pilok: " + iloscPilok);
 
+	}
+
+
+	public void eat(String typeOfFood) {
+		System.out.println("Time to eat: " + typeOfFood);
+	}
+
+	public String identifyYourself() {
+		return "Dog's name: " + this.name
+				+ "Dog's age" + this.age;
 	}
 }
