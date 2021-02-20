@@ -47,7 +47,6 @@ public class Dog {
 
 	}
 
-
 	public void eat(String typeOfFood) {
 		System.out.println("Time to eat: " + typeOfFood);
 	}
