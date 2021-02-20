@@ -31,9 +31,14 @@ public class Dog {
 		return this;
 	}
 
-	public Dog(String name, int age, String type ) {
+	public Dog(String name, int age, String type) {
 		this.name = name;
 		this.age = age;
 		this.type = type;
+	}
+
+	public String IdentifyYourself() {
+		return "Dog's name: " + this.name
+				+ "Dog's age" + this.age;
 	}
 }
