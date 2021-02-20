@@ -37,7 +37,7 @@ public class Dog {
 		this.type = type;
 	}
 
-	public String IdentifyYourself() {
+	public String identifyYourself() {
 		return "Dog's name: " + this.name
 				+ "Dog's age" + this.age;
 	}
