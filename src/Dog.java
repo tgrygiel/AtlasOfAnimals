@@ -4,6 +4,9 @@ public class Dog {
 	private int age;
 	private String type;
 
+	public static int iloscPilok = 0;
+
+
 	public String getName() {
 		return name;
 	}
@@ -35,5 +38,12 @@ public class Dog {
 		this.name = name;
 		this.age = age;
 		this.type = type;
+	}
+
+	public void wzocPilke(){
+		iloscPilok++;
+		System.out.println("przynesc pilke " + name);
+		System.out.println("mam pilok: " + iloscPilok);
+
 	}
 }
