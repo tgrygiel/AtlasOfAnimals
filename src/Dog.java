@@ -46,7 +46,12 @@ public class Dog {
 		this.type = type;
 	}
 
-	public String IdentifyYourself() {
+
+	public void eat(String typeOfFood) {
+		System.out.println("Time to eat: " + typeOfFood);
+	}
+
+	public String identifyYourself() {
 		return "Dog's name: " + this.name
 				+ "Dog's age" + this.age;
 	}
