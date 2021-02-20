@@ -9,7 +9,6 @@ public class Dog {
 		this.name = name;
 		this.age = age;
 		this.type = type;
-
 	}
 
 	public String getName() {
