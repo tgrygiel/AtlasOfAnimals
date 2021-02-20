@@ -3,7 +3,16 @@ public class Dog {
 	private String name;
 	private int age;
 	private String type;
-
+//
+//	
+//	
+//	
+//	
+//	
+//	
+//	
+//	
+//	
 	public String getName() {
 		return name;
 	}
@@ -31,13 +40,19 @@ public class Dog {
 		return this;
 	}
 
-	public Dog(String name, int age, String type ) {
+	public Dog(String name, int age, String type) {
 		this.name = name;
 		this.age = age;
 		this.type = type;
 	}
 
+
 	public void eat(String typeOfFood) {
 		System.out.println("Time to eat: " + typeOfFood);
+	}
+
+	public String identifyYourself() {
+		return "Dog's name: " + this.name
+				+ "Dog's age" + this.age;
 	}
 }
