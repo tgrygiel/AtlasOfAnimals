@@ -3,9 +3,6 @@ public class Cow {
     private int age;
     private String type;
 
-    public Cow() {
-    }
-
     public Cow(String name, int age, String type) {
         this.name = name;
         this.age = age;
