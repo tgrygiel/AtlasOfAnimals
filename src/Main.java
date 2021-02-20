@@ -10,6 +10,9 @@ public class Main {
 		String result = dog.identifyYourself();
 
 		System.out.println(result);
+
+		Parrot parrot = new Parrot("Qwerty", 2, "Asdf");
+
 	}
 
 }
